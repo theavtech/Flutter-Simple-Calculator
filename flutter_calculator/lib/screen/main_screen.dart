@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced_switch/flutter_advanced_switch.dart';
-import 'package:flutter_calculator/controller/calculate_controller.dart';
-import 'package:flutter_calculator/controller/theme_controller.dart';
-import 'package:flutter_calculator/utils/colors.dart';
-import 'package:flutter_calculator/widget/button.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+import '../controller/calculate_controller.dart';
+import '../controller/theme_controller.dart';
+import '../utils/colors.dart';
+import '../widget/button.dart';
 
 class MainScreen extends StatelessWidget {
   MainScreen({Key? key}) : super(key: key);

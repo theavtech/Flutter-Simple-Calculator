@@ -1,6 +1,7 @@
-import 'package:flutter_calculator/controller/calculate_controller.dart';
-import 'package:flutter_calculator/controller/theme_controller.dart';
 import 'package:get/instance_manager.dart';
+
+import '../controller/calculate_controller.dart';
+import '../controller/theme_controller.dart';
 
 class MyBindings implements Bindings {
   @override
