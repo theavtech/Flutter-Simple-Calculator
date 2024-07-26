@@ -30,6 +30,9 @@ flutter:
   assets:
     - assets/day_sky.png
     - assets/night_sky.jpg
+    - assets/todo_tutorial1.MOV
+    - assets/todo_tutorial2.MOV
+    - assets/todo_tutorial3.MOV
     
 
   # fonts:
