@@ -5,7 +5,7 @@ class DarkColors {
   static const scaffoldBgColor = Color(0xff22252D);
   static const sheetBgColor = Color(0xff292D36);
   static const btnBgColor = Color.fromARGB(255, 33, 36, 42);
-  static const leftOperatorColor = Color.fromARGB(255, 7, 255, 209);
+  static const leftOperatorColor = Color.fromARGB(255, 6, 244, 14);
 }
 
 /// Light Them Colors

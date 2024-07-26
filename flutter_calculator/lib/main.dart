@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       initialBinding: MyBindings(),
-      title: "Calculator Pro",
+      title: "Calculator Plus",
       home: MainScreen(),
     );
   }
