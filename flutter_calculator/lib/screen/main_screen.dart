@@ -64,16 +64,20 @@ class MainScreen extends StatelessWidget {
         child: Container(
           padding: const EdgeInsets.all(3),
           decoration: BoxDecoration(
-              color: themeController.isDark
-                  ? DarkColors.sheetBgColor
-                  : LightColors.sheetBgColor,
-              borderRadius: const BorderRadius.only(
-                  topLeft: Radius.circular(30), topRight: Radius.circular(30))),
+            color: themeController.isDark
+                ? DarkColors.sheetBgColor
+                : LightColors.sheetBgColor,
+            borderRadius: const BorderRadius.only(
+              topLeft: Radius.circular(30),
+              topRight: Radius.circular(30),
+            ),
+          ),
           child: GridView.builder(
               physics: const NeverScrollableScrollPhysics(),
               itemCount: buttons.length,
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 4),
+                crossAxisCount: 4,
+              ),
               itemBuilder: (context, index) {
                 switch (index) {
                   /// CLEAR BTN
